@@ -30,9 +30,7 @@ app.use(
         origin: "*"
     })
 )
-// app.use('/', routes);
-// app.use(app.router);
-// routes.initialize(app);
+
 app.use("/api/auth", authRouter)
 app.use(middleware)
 
